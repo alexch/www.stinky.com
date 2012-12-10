@@ -1,0 +1,3 @@
+This file is obsolete; go to http://www.stinky.com/java/ for the latest version
+
+

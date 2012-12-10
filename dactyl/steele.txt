@@ -1,0 +1,264 @@
+From: Paul Dourish <dourish@parc.xerox.com>
+Organisation: Xerox PARC, Palo Alto, California
+Subject: double dactyls
+To: alex@stinky.com
+Date: Mon, 30 Oct 1995 16:01:06 PST
+
+[this message has a dangerously high nerd quotient]
+
+Guy L. Steele, Jr, formerly of the MIT AI Laboratory, subsequently
+Thinking Machines Inc and most recently Sun Microsystems, used to
+write a lot of these, on generally nerdy subjects (so frequent
+reference to the Hacker's dictionary may be necessary), both in
+English and Latin. He called them "Higgledy-Piggledies".
+
+The file I took these from is dated April 17, 1979. (There's a lot of
+other even more nerdy stuff in it; perhaps similarly to the
+relationship between science fiction fandom and computer science,
+there's something of a "filk" tradition in CS, which this stuff
+exemplifies.)
+
+The original file contained a copyright notice: "(C) Copyright 1978 by
+Guy L. Steele Jr.  All rights reserved." It's something I retreived
+long ago from a venerable, now defunct, machine at the MIT AI Lab,
+running the venerable, now defunct, Incompatible Timesharing System.
+
+Oh, btw, Steele (or "GLS", pro. "gliss") was known at MIT as The Great
+Quux, for reasons to complex to explain... hence the "quuxity" in
+these, plus at least one reference to "TGQ".
+
+                                                  -- Paul.
+
+----
+[3] Some Higgledy-Piggledies
+
+
+For those  not familiar with this verse  form: A Higgledy-Piggledy has
+eight lines.  All but the  fourth and eighth lines are double dactyls,
+while  the fourth and eighth  are a dactyl plus  an upbeat.  The first
+line is nonsense; the second, a  name; the sixth must be a single six-
+syllable  word;  and  the   fourth  and  eighth  must  rhyme.   It  is
+permissible  for the first line  to make sense, or  for the fifth line
+instead of the sixth to be  all one word.  If too many rules are bent,
+the  verse  is  just  called a  double-dactyl  verse,  rather  than  a
+Higgledy-Piggledy.
+
+[a] If you write (DO ((X NIL X) ...) ...) instead of the
+    usual (DO ((X NIL) ...) ...), i.e. you explicitly step
+    a variable by its own value, NCOMPLR (the MacLISP compiler)
+    may get confused, and in any case generates inessential code.
+
+Higgledy piggledy,
+Project MAC NCOMPLR
+Still is committing its
+DO-stepping sins:
+Though it may seem somewhat
+Counterintuitive,
+FOO stepped by FOO screws; de-
+Faulting it wins.
+
+
+[b] You can't do EQ on numbers and hope to win.  Recall also
+    the famous test in which NCOMPLR produced better numerical
+    code than the DEC FORTRAN compiler (Fateman 1973).
+
+Quaxity quuxity,
+MacLISP and NCOMPLR
+Have a convention that
+Makes losers freak:
+Integers allocate
+Hyperefficiently,
+Bettering FORTRAN, but
+Screwing up EQ.
+
+
+[c] As usual, taking a DWIM view of InterLISP.
+
+Quaxity quuxity,
+Teitelman's InterLISP
+Has a DWIM feature that's
+Really a screw;
+MacLISP has evident
+Superiority,
+Letting its customer
+Mean what he do.
+
+
+    Though NEWIO has been around for many months,
+    few people use it.  I wonder why?
+
+Quaxity quuxity,
+TGQ's NEWIO
+Has many functions that
+No one can grok:
+Documentation is
+Incomprehensible;
+GLS will explain it, but
+Still it's a crock.
+
+
+[a] NIL leads a double life in LISP.
+
+Quaxity quuxity,
+NIL the atomic one
+Acts like a wavicle,
+Seemingly twin:
+Not just the inverse of
+Verisimilitude;
+Also the inverse of
+Where lists begin.
+
+
+[b] I am getting weary of bicentennial parading by industry.
+    "Bicentennial Minutes" now appear not only on television,
+    but on milk cartons and beer cans.
+
+Quaxity quuxy, A-
+Merican businessmen
+Use bicentennial,
+Profit to gain.
+Hope by the time we reach
+Quadricentennial
+They'll not so plague me -- ad-
+Vertisements pain!
+
+
+[c] For SF fans: see Asimov's article on the "peace bomb"
+    (contained in his collection "Opus 100").
+
+Quaxity quuxity,
+Young Isaac Asimov
+Strange thiotimoline's
+Secret unfurled.
+Cascaded series of
+Endochronometers
+Brought paradoxical
+Floods on the world.
+
+[d] More SF, this time in memory of James Blish:
+
+Quaxity quuxity,
+Blish used philosophy
+When he was writing "The
+Quincunx of Time."
+Beeps of Dirac used to
+Chronocommunicate
+Fostered determinate
+Free will sublime.
+
+[e] DJL, computer science type undergraduate, has decided to
+    go to MIT grad school in Materials Science.
+
+Quaxity quuxity,
+David J. Littleboy
+(MIT graduate)
+Makes his plans plain.
+Leaving the study of
+Data-technology,
+He prefers seeking ma-
+Terial gain.
+
+[f] I once read that space has three dimensions because orbits
+    aren't stable in 4-space.
+
+I often have wondered in
+What kind of orbit a
+Planet proceeds in a
+Tesseract space?
+Multidimensional,
+Hyperelliptical,
+Dizzying spacemen in
+Trans-solar chase.
+
+
+[g] Finally, let's hear it for quantum mechanics, who service
+    small automobiles for today's nuclear family.
+
+Pauli and Heisenberg
+Offer two rules for con-
+Fused aristocracies,
+Quantum domains:
+"Egalitarian
+Nonexclusivity
+Must be forbidden"; "Un-
+Certainty reigns."
+
+
+[a] When in Canada, do as the Canadans do...
+
+Quaxiti quuxiti,      Quaxity quuxity,
+Remus et Romulus        Remus and Romulus,
+Gemini fratres a        Wolf-nourished brothers, were
+Lupa aluntur.           Twins, so they say.
+Romulus inquit: non     Romulus patiently
+Aedificabitur           Founded a city; as
+Paucis diebus, sed      He said, "Rome will not be
+Roma nascetur.          Built in a day."
+
+
+[b] Apples grow on trees, but no trees in APLs.
+
+Quaxity quuxity,
+Kenneth E. Iverson
+Made APL, matrix
+Hackers to please,
+Not only famous for
+Arithmeticity;
+Also for characters.
+(Wish it had trees!)
+
+
+[c] Sussman built a hacker for a Ph.D. thesis.  When will someone
+    for a thesis build a hacker that builds a hacker?
+
+Quaxity quuxity,
+Gerald J. Sussman made
+HACKER so famous for
+Loopholes it plugs.
+Armed with its knowledge of
+Entomological
+Manifestations, it
+Ferrets out bugs.
+
+
+[d] It doesn't take truth to destroy a reputation, but only
+    a rumor.  Yet sometimes the nastiest rumor is the truth.
+    Consider the one which says EQUIV causes true values (1-bits)
+    to complement bits of the other argument...
+
+Quaxity quuxity,
+XOR's more famous than
+Brother EQUIV, though they've
+Similar use.
+Uncomplementary
+Verisimilitude,
+Rumor undoubtedly
+Cooked EQUIV's goose.
+
+
+[e] And why did Napoleon clutch his stomach?  (Mail $1000 and a
+    self-addressed, stamped envelope, and we'll send you a jingle
+    in 25 words or less.)
+
+Quaxity quuxy, Na-
+Poleon Bonaparte
+Conquered all Europe, but
+What was the use?
+Some say the problem was
+Megalomania;
+Others, he lacked modern
+High-platform shoes.
+
+
+[f] People got excited about BNF, and used it to drive parser
+    generators.  But you still can't really tell how to write
+    programs in the language.
+
+Quaxity quuxity,
+Backus's BNF
+Drives a preprocessor,
+Generates code.
+Parsing is specified
+Metasyntactically;
+Writing it's easy, but
+reading, I'm snowed.

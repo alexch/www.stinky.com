@@ -1,0 +1,180 @@
+java.lang.Class:
+12a13
+>     public java.lang.Class getInterface(java.lang.String);
+27a29
+>     public java.lang.reflect.Method getDeclaredMethodFromSignature(java.lang.String, java.lang.String);
+29a32
+>     public java.lang.reflect.Method getMethodFromSignature(java.lang.String, java.lang.String);
+30a34
+>     public java.lang.reflect.Method getMethods(int)[];
+
+java.lang.reflect.Member:
+6a7
+>     public static final int PUBLIC_DECLARED;
+
+java.lang.reflect.Method:
+2a3
+>     public int getParameterCount();
+7a9
+>     public java.lang.String getDescriptor();
+
+java.lang.SecurityManager:
+15a16
+>     public void checkFileDialog();
+20a22
+>     public void checkMultimedia();
+28a31
+>     public void checkRegistry(int, java.lang.String);
+31a35
+>     public void checkSystemStreams(int);
+
+java.lang.Runtime:
+9a10
+>     public static com.ms.awt.peer.INativeServices getNativeServices();
+
+java.lang.VerifyError:
+1c1,8
+< public class java.lang.VerifyError extends java.lang.LinkageError 
+---
+> public class java.lang.VerifyError extends java.lang.LinkageError implements com.ms.security.auditing.ISecurityAuditInfo 
+>     public int getPC();
+>     public int getViolationCode();
+>     public java.lang.String getAuditDetails()[];
+>     public java.lang.String getAuditIdentifier();
+>     public java.lang.String getClassName();
+>     public java.lang.String getMethodName();
+>     public java.lang.String getViolationDescription();
+
+java.io.ByteArrayOutputStream:
+7d6
+<     public java.lang.String toString(java.lang.String);
+
+java.util.Locale:
+6a7,8
+>     public int getCodePage();
+>     public int getLCID();
+16a19
+>     public java.util.Locale getDefaultLocaleList()[];
+18a22,31
+>     public java.util.Locale(java.lang.String,java.lang.String,java.lang.String,int,int);
+>     public static final java.util.Locale AFRIKAANS;
+>     public static final java.util.Locale ALBANIAN;
+>     public static final java.util.Locale AUSTRALIA;
+>     public static final java.util.Locale BASQUE;
+>     public static final java.util.Locale BELGIAN;
+>     public static final java.util.Locale BELGIAN_FRENCH;
+>     public static final java.util.Locale BRAZILIAN;
+>     public static final java.util.Locale BULGARIAN;
+>     public static final java.util.Locale BYELORUS;
+20a34
+>     public static final java.util.Locale CATALAN;
+22a37,40
+>     public static final java.util.Locale CROATIAN;
+>     public static final java.util.Locale CZECH;
+>     public static final java.util.Locale DANISH;
+>     public static final java.util.Locale DUTCH;
+23a42,43
+>     public static final java.util.Locale ESTONIAN;
+>     public static final java.util.Locale FINNISH;
+27a48,55
+>     public static final java.util.Locale GERMAN_AUSTRIAN;
+>     public static final java.util.Locale GERMAN_SWISS;
+>     public static final java.util.Locale GREEK;
+>     public static final java.util.Locale HEBREW;
+>     public static final java.util.Locale HUNGARIAN;
+>     public static final java.util.Locale ICELANDIC;
+>     public static final java.util.Locale INDONESIAN;
+>     public static final java.util.Locale IRELAND;
+31a60
+>     public static final java.util.Locale JAPANESE_VERTICAL;
+33a63,71
+>     public static final java.util.Locale KOREAN_VERTICAL;
+>     public static final java.util.Locale LATVIAN;
+>     public static final java.util.Locale LITHUANIAN;
+>     public static final java.util.Locale MEXICAN;
+>     public static final java.util.Locale NEWZEALAND;
+>     public static final java.util.Locale NORWEGIAN;
+>     public static final java.util.Locale NORWEGIAN_NYNORSK;
+>     public static final java.util.Locale POLISH;
+>     public static final java.util.Locale PORTUGESE;
+34a73,75
+>     public static final java.util.Locale ROMANIAN;
+>     public static final java.util.Locale RUSSIAN;
+>     public static final java.util.Locale SERBIAN;
+35a77,85
+>     public static final java.util.Locale SIMPLIFIED_CHINESE_VERTICAL;
+>     public static final java.util.Locale SINGAPORE;
+>     public static final java.util.Locale SLOVAKIAN;
+>     public static final java.util.Locale SLOVENIAN;
+>     public static final java.util.Locale SOUTH_AFRICA;
+>     public static final java.util.Locale SPANISH;
+>     public static final java.util.Locale SPANISH_MODERN;
+>     public static final java.util.Locale SWEDISH;
+>     public static final java.util.Locale SWISS;
+36a87
+>     public static final java.util.Locale THAI;
+37a89,90
+>     public static final java.util.Locale TRADITIONAL_CHINESE_VERTICAL;
+>     public static final java.util.Locale TURKISH;
+38a92
+>     public static final java.util.Locale UKRANIAN;
+40a95
+>     public static java.util.Locale getLocaleFromLCID(int);
+
+java.util.ResourceBundle:
+2a3,4
+>     public final java.awt.Menu getMenu(java.lang.String);
+>     public final java.awt.MenuBar getMenuBar(java.lang.String);
+
+java.security.interfaces.DSAPrivateKey:
+1c1,4
+< public interface interface java.security.interfaces.DSAPrivateKey extends java.lang.Object implements java.security.interfaces.DSAKey , java.security.PrivateKey 
+---
+>     public abstract java.security.interfaces.DSAParams getParams();
+>     public abstract byte getEncoded()[];
+>     public abstract java.lang.String getAlgorithm();
+>     public abstract java.lang.String getFormat();
+
+java.security.interfaces.DSAPublicKey:
+1c1,4
+< public interface interface java.security.interfaces.DSAPublicKey extends java.lang.Object implements java.security.interfaces.DSAKey , java.security.PublicKey 
+---
+>     public abstract java.security.interfaces.DSAParams getParams();
+>     public abstract byte getEncoded()[];
+>     public abstract java.lang.String getAlgorithm();
+>     public abstract java.lang.String getFormat();
+
+java.awt.image.ColorModel:
+10d9
+<     public void finalize();
+
+java.awt.image.DirectColorModel:
+1a2
+>     public com.ms.awt.peer.DirectColourModelData getToolkitData();
+
+java.awt.image.IndexColorModel:
+1a2
+>     public boolean getOpaque();
+12a14
+>     public int getToolkitData()[];
+
+java.awt.peer.ComponentPeer:
+13a14
+>     public abstract java.awt.Rectangle getBounds();
+
+java.awt.Font:
+4a5
+>     public int getNativeData();
+16a18
+>     public transient int pData;
+
+java.awt.EventQueue:
+5a6
+>     public void _postEvent(java.awt.AWTEvent);
+
+java.awt.SystemColor:
+1a2
+>     public int getWin32Index();
+31a33
+>     public static final java.awt.SystemColor appWorkspace;
+

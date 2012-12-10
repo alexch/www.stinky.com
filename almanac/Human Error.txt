@@ -1,0 +1,54 @@
+From: Alex Chaffee [alex@stinky.com]
+Sent: Saturday, March 28, 1998 5:59 PM
+Subject: Human Error
+
+(Written Friday morning, March 27)
+
+The hot new technology at the JavaOne conference is the Java
+Ring. It's a ring you wear on your finger, class-ring size, stainless
+steel, with a nice Java logo, and a fully functional computer chip
+inside that runs Java. You stick it in to a little blue dot port that
+plugs into a computer's serial port, and it downloads Java class files
+and executes them. It's got 32K of static, auto-zeroing RAM, a unique
+ID and a private key, and 1024-bit RSA encryption algorithms built
+in. The idea is, you use the ring like a smart card, stick it in when
+you need to identify yourself to a program, or digitally sign or
+encrypt a document. One of the demos has you plugging it in to a door
+handle that reads your ID and only opens if you have the right ring.
+
+They also have models that fit into a wrist watch, a fob, a brooch, a
+billfold, a bracelet: small accessories that allow function to be
+fashionable (although they seem to forget that Pilots, cell phones, et
+al. are fashionable accessories in their own right).
+
+One of the main ideas behind putting it on a fashionable accessory is
+that it's more physically secure than, e.g., a credit card. A ring is
+something you keep on your person all the time, and there are social
+conventions and habits that we've developed to protect it (and other
+valuable accessories). This is vital for a new security/identity
+technology: it has to be hard to lose.
+
+Well, last night, I lost mine.
+
+I was in a bar with some friends, showing it off. A friend asked to
+see it, I took it off and passed it to her, she passed it to someone
+else, and because I was on my fourth sangria, I was distracted by
+another conversation and forgot to ask for it back. It was the old
+"who's got the lighter" trick. I didn't notice it was gone until I
+woke up this morning.
+
+Ironically, I lost it *because* it's a fashionable accessory. 
+
+ - Alex
+
+P.S. Oops, I just found it. It was on the night table. Nevermind.
+
+---
+
+(P.P.S. I've just finished a massive overhaul of my email system. If
+you receive this twice, or at the wrong address, please reply and let
+me know. This also means that you will soon receive some old, queued
+messages I've been putting off sending.)
+
+---
+Alex Chaffee - Java Consulting and Training - alex@stinky.com

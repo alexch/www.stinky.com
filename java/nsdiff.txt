@@ -1,0 +1,64 @@
+Diffs between JDK1.1.3 classes and Netscape JDK Patch PR2
+
+Started: Sun Oct 12 08:05:47 EDT 1997
+
+java.lang.ClassLoader:
+0a1
+>     public boolean checkMatchPrincipalAlways(int);
+2a4
+>     public java.net.URL getCodeBase();
+
+java.lang.SecurityManager:
+0a1
+>     public boolean checkMatchPrincipalAlways(int);
+2a4
+>     public boolean isNotSecurePrincipalFromStack(java.lang.Object);
+3a6
+>     public java.lang.String getNonSystemPrincipalFromStack(java.lang.Object);
+4a8,15
+>     public static boolean checkScopePermission(int);
+>     public static boolean checksMatchPrincipalAlways(int);
+>     public static boolean isPrivilegeEnabled(java.lang.String);
+>     public static void enablePrivilege(java.lang.String);
+>     public static void resetScopePermission();
+>     public static void revertPrivilege();
+>     public static void setScopePermission();
+>     public static void setSecurityManager();
+6a18
+>     public void checkAccess(java.lang.Thread, java.lang.Throwable);
+11a24
+>     public void checkCreateSecurityManagerAccess();
+30a44,45
+>     public void checkURLConnect(java.net.URL);
+>     public void checkURLConnect(java.net.URL, java.net.URL);
+
+java.net.URL:
+1a2
+>     public byte getData()[];
+
+java.net.InetAddress:
+4a5
+>     public java.net.InetAddress(int);
+
+
+missing java.security.*
+
+
+java.awt.Toolkit:
+19a20,21
+>     public static boolean enterPumpForModal(java.lang.Thread);
+>     public static java.awt.EventQueue getEventQueue();
+
+java.awt.EventQueue:
+4a5,9
+>     public java.awt.EventQueue(java.lang.Thread);
+>     public static java.awt.EventQueue getQueue(java.lang.ThreadGroup);
+>     public static void clearQueuesTable();
+>     public static void putQueue(java.lang.ThreadGroup, java.awt.EventQueue);
+>     public static void removeQueue(java.lang.ThreadGroup);
+
+java.beans.Introspector:
+2a3
+>     public static java.lang.Class getClassForName(java.lang.String);
+
+Finished: Sun Oct 12 08:31:06 EDT 1997

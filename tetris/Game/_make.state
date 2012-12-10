@@ -1,0 +1,35 @@
+.MAKE_VERSION:	VERSION-1.0
+RandomClass.o:
+	g++ -c RandomClass.cc -o RandomClass.o -I. -I./Unix -I.. -DUNIX -DGPQ -lm -O4
+Display.o:	/usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/stdio.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/stdarg.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/va-sparc.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/curses.h /usr/include/sgtty.h /usr/include/sys/ioctl.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/sys/ttychars.h /usr/include/sys/ttydev.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/sys/ttold.h
+Display.o:	/usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/sys/ioccom.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/sys/ttycom.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/sys/filio.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/sys/sockio.h Unix/config.h Board.h Piece.h RandomClass.h MemoryClass.h Params.h Unix/Assert.h 
+	g++ -c Display.cc -o Display.o -I. -I./Unix -I.. -DUNIX -DGPQ -lm -O4
+Piece.o:	Unix/config.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/stdio.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/stdarg.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/va-sparc.h RandomClass.h Unix/Assert.h 
+	g++ -c Piece.cc -o Piece.o -I. -I./Unix -I.. -DUNIX -DGPQ -lm -O4
+Game.o:	Unix/config.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/stdio.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/stdarg.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/va-sparc.h Player.h Board.h Piece.h RandomClass.h MemoryClass.h Display.h Params.h Globals.h Unix/Assert.h 
+	g++ -c Game.cc -o Game.o -I. -I./Unix -I.. -DUNIX -DGPQ -lm -O4
+Player.o:	Board.h Piece.h Unix/config.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/stdio.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/stdarg.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/va-sparc.h RandomClass.h MemoryClass.h /usr/local/gnu/sparc-sun-sunos4.1.3/include/assert.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/stdlib.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/sys/stdtypes.h
+Player.o:	
+	g++ -c Player.cc -o Player.o -I. -I./Unix -I.. -DUNIX -DGPQ -lm -O4
+.BUILT_LAST_MAKE_RUN:
+clean:
+	rm Board.o Game.o Player.o Display.o Piece.o MemoryClass.o  RandomClass.o Assert.o GPQPlayer.o Globals.o Params.o Assert.o libgame.a *~
+MemoryClass.o:	/usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/stdlib.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/sys/stdtypes.h /usr/local/gnu/sparc-sun-sunos4.1.3/include/assert.h 
+	g++ -c MemoryClass.cc -o MemoryClass.o -I. -I./Unix -I.. -DUNIX -DGPQ -lm -O4
+Params.o:	/usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/stdio.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/stdarg.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/va-sparc.h 
+	gcc -c Params.c -o Params.o -O -I. -I./Unix -I.. -DUNIX -DGPQ
+Board.o:	Unix/config.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/stdio.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/stdarg.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/va-sparc.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/stdlib.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/sys/stdtypes.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/math.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/floatingpoint.h
+Board.o:	/usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/sys/ieeefp.h Piece.h RandomClass.h Unix/Assert.h Params.h 
+	g++ -c Board.cc -o Board.o -I. -I./Unix -I.. -DUNIX -DGPQ -lm -O4
+libgame.a:
+	ar ruv libgame.a Board.o Game.o Player.o Display.o Piece.o MemoryClass.o  RandomClass.o Assert.o GPQPlayer.o Globals.o Params.o Assert.o
+	ranlib libgame.a
+GPQPlayer.o:	Player.h Board.h Piece.h Unix/config.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/stdio.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/stdarg.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/va-sparc.h RandomClass.h MemoryClass.h ../chrome.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/string.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/sys/stdtypes.h ../pch.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/stdlib.h
+GPQPlayer.o:	/usr/local/gnu/lib/g++-include/stream.h /usr/local/gnu/lib/g++-include/iostream.h /usr/local/gnu/lib/g++-include/streambuf.h /usr/local/gnu/lib/g++-include/libio.h /usr/local/gnu/sparc-sun-sunos4.1.3/include/_G_config.h /usr/local/gnu/lib/g++-include/strstream.h /usr/local/gnu/lib/g++-include/strfile.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/ctype.h /usr/local/gnu/lib/g++-include/iomanip.h /usr/local/gnu/lib/g++-include/fstream.h
+GPQPlayer.o:	/usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/math.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/floatingpoint.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/sys/ieeefp.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/float.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/time.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/values.h ../selector.h Params.h
+GPQPlayer.o:	../BOUND.h Globals.h Display.h /usr/local/gnu/sparc-sun-sunos4.1.3/include/assert.h 
+	g++ -c GPQPlayer.cc -o GPQPlayer.o -I. -I./Unix -I.. -DUNIX -DGPQ -lm -O4
+Globals.o:	/usr/local/gnu/sparc-sun-sunos4.1.3/include/assert.h Display.h Board.h Piece.h Unix/config.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/stdio.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/stdarg.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/va-sparc.h RandomClass.h MemoryClass.h Params.h Globals.h 
+	g++ -c Globals.cc -o Globals.o -I. -I./Unix -I.. -DUNIX -DGPQ -lm -O4
+Assert.o:	/usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/stdio.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/stdarg.h /usr/local/gnu/lib/gcc-lib/sparc-sun-sunos4.1.3/2.5.8/include/va-sparc.h 
+	gcc -c ./Unix/Assert.c -o Assert.o -O -I. -I./Unix -I.. -DUNIX -DGPQ

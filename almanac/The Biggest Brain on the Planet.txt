@@ -1,0 +1,127 @@
+Subject: The Biggest Brain on the Planet 
+Date: Fri, 22 Sep 1995 16:30:44 -0400 (EDT) 
+
+
+Here are some notes on the talk Danny Hillis -- founder of Thinking
+Machines, designer of the fastest computer ever, Genetic Algorithm
+demigod -- gave as one of the keynote speakers for the Java Day
+conference yesterday. You may note that it has nothing to do with
+Java.
+
+
+He put up a number of graphs of various technological developments
+over time. Number of internet hosts, average cpu power, price of
+developing a new chip. All were plotted on semilog paper, and all were
+basically straight lines, which means they rise exponentially.
+
+
+His conclusion: something funny is going on. In no other area of human
+culture is growth exponential. We in the tech fields are used to
+seeing those kind of curves, so we're not surprised, but really, it's
+quite bizarre. E.g., the auto industry looks for growth of one or two
+percent a year. 
+
+
+There's two places this can go: either back down just as fast, or
+level out. Let's assume it'll level out (making it an ogive curve). If
+you back up from this curve (and plot it on normal paper) it looks
+like a step function. In physics, step functions describe phase
+transitions. Therefore we are (maybe) in a phase transition, moving
+from one mode of living to another.
+
+
+He then went back to the origin of life in an effort to enumerate the
+other phase transitions in human history.
+
+
+1. Analog life: as he put it, little drops of oil that absorbed
+chemicals from their environment; when they got to a certain size,
+they split, and some chemicals went in one half and some in another.
+The mixtures that were better at absorbing absorbed more thus split
+more... simple evolution.
+
+
+2. Digital life: the invention of DNA, the most robust language in
+history. "You're binary-compatible with bacteria." He pulled out a
+vial of white powder which was actually DNA (joke about it causing
+problems at customs); you can order DNA to spec these days; they have
+a standard one-letter code for each of the standard sequences; this
+particular DNA spelled his name. "So if anyone wants 10 to the 30th
+copies of my business card, let me know." "If I were really
+aggressive, I'd have spliced it into a virus and sneezed on you."
+
+
+3. Cells differentiated, then learned to communicate with one another,
+then form communities, finally becoming multicellular life forms -- so
+the unit of evolution was now the individual.
+
+
+4. The Pre-Cambrian Explosion: 300 mil. years ago -- the explosive
+growth of species, the invention of most animal and plant life forms
+as we know them today -- he attributes it to the language (DNA)
+getting better somethow -- "Maybe it became object-oriented?"
+
+
+5. Nervous Systems (email for cells) - analog
+
+
+6. Digital neurons - allowed computations, which allowed *learning* --
+adaptation was accelerated by orders of magnitude (there's that log
+scale again) -- "You eat a bad fruit, you get sick, you don't eat that
+fruit again... Where before it took your ancestors 300 generations to
+stop eating that fruit..." Okay, not -your- ancestors, cause they'd
+have died before reproducing, but you get the point.
+
+
+7. Language -> culture -> the unit of selection changed again, now
+it's the group
+
+
+8. Writing
+
+
+Then he went into the currently zeitgeisty thought that the net is
+becoming the *source* of information, not just its carrier (analogous
+to the peripheral nervous system -> brain distinction). This plus its
+complexity will lead to more emergent behaviours.
+
+
+For example, net lag is an emergent behavior. "There's no one to call
+when the Internet is slow."
+
+
+He told a great story about the early days of ARPANet. There were only
+a few hundred machines on the Internet. He recalls a 1/2" thick
+directory with the name, email, and bio of everyone on the
+Internet. Each machine had a full routing table, where it kept track
+of how long it took a packet to get to every single other host. The
+other hosts would periodically ask around, see who's the fastest
+router to get to the destination they're looking for. So one day there
+was a bug in the routing software, and one host's routing tables got
+filled with zeros. So it thought the transmission time to get to any
+other host was 0 seconds. "Not bad," thought all the other hosts, "If
+he can get this packet through to point B in 0 seconds, I'll just send
+it to him." So all Internet traffic was going through this one
+host. Naturally, when everything ground to a less than slow crawl,
+what did everyone do? Sent email to the network administrator. Which
+got routed through this one machine...
+
+
+The routing tables were instantly updated and cached, plus now every
+machine was advertising that it could get packets sent in (time to
+flaky host + 0 seconds), so turning off the flaky machine didn't
+help. The solution was finally to turn off every single machine on the
+Internet and reboot. Can you imagine doing that today? The concept
+doesn't even make sense.
+
+
+I was hoping he would talk some about what he sees on the other side
+of the phase transition. Instead he closed with some loosely tied
+comments about java. I chatted with him later, and he said, "Yes, I
+have lots of ideas, but we'll have to talk about them later." I said
+I'd call him on that in email one day.
+
+
+-----------------------------------------------------------------------------
+Copyright © 1995 Alexander D. Chaffee (alex@stinky.com). All rights reserved. 
+See more at http://www.stinky.com/almanac/

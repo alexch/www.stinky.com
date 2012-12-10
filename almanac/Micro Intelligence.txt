@@ -1,0 +1,32 @@
+Subject: Micro Intelligence 
+Date: Thu, 12 Oct 1995 12:20:46 -0400 (EDT) 
+
+
+Our new office microwave is a little scary. When it finishes cooking,
+a little message scrolls across its 7-character LED display:
+
+
+    E N J O Y   Y O U R   M E A L
+
+
+When I remarked on this it set off a barrage of HAL jokes.
+
+
+"No HAL-9000 Microwave has ever overcooked a burrito, Dave. It must be
+due to human error."
+
+
+"Open the oven bay door, HAL!"
+"I'm sorry, Dave. This meal is too important to be jeapordized."
+
+
+
+-- 
+Alex Chaffee
+Lead Engineer, Software Development
+EarthWeb, LLC., 3 Park Ave, 38th Floor, NYC 10016
+alex@earthweb.com
+
+-----------------------------------------------------------------------------
+Copyright © 1995 Alexander D. Chaffee (alex@stinky.com). All rights reserved. 
+See more at http://www.stinky.com/almanac/

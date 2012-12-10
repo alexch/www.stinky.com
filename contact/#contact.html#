@@ -1,0 +1,47 @@
+ls -l
+<html>
+<head>
+<title> Contact Info </title>
+
+</head>
+<body>
+
+Please leave me all your vital statistics.
+
+<p>
+
+
+<form type=post action="contact.cgi">
+
+<table>
+
+<Tr><Td> Last Name </Td><Td> <Input Name="Last"> </Td> </Tr>
+<Tr><Td> First Name </Td><Td> <Input Name="First"> </Td> </Tr>
+<Tr><Td> Title </Td><Td> <Input Name="Title"> </Td> </Tr>
+<Tr><Td> Company </Td><Td> <Input Name="Company"> </Td> </Tr>
+<Tr><Td> Work Phone </Td><Td> <Input Name="Work"> </Td> </Tr>
+<Tr><Td> Home Phone </Td><Td> <Input Name="Home"> </Td> </Tr>
+<Tr><Td> Fax </Td><Td> <Input Name="Fax"> </Td> </Tr>
+<Tr><Td> Other </Td><Td> <Input Name="Other"> </Td> </Tr>
+<Tr><Td> Email </Td><Td> <Input Name="Email"> </Td> </Tr>
+<Tr><Td> Address </Td><Td> <Input Name="Address"> </Td> </Tr>
+<Tr><Td> City </Td><Td> <Input Name="City"> </Td> </Tr>
+<Tr><Td> State </Td><Td> <Input Name="State"> </Td> </Tr>
+<Tr><Td> Zip </Td><Td> <Input Name="Zip"> </Td> </Tr>
+<Tr><Td> Country </Td><Td> <Input Name="Country"> </Td> </Tr>
+<TR><TD> URL </TD><TD> <INPUT NAME="URL"> </TD> </TR>
+<Tr><Td> Birthday </Td><Td> <Input Name="Birthday"> </Td> </Tr>
+<Tr><Td> Custom 3 </Td><Td> <Input Name="Custom 3"> </Td> </Tr>
+<Tr><Td> Custom 4 </Td><Td> <Input Name="Custom 4"> </Td> </Tr>
+<Tr><Td> Note </Td><Td> <TextField Name="Note"></textfield> </Td> </Tr>
+<Tr><Td> Category </Td><Td> <Input Name="Category"> </Td> </Tr>
+
+</table>
+
+<input type=submit>
+
+</form>
+
+</body>
+</html>
+

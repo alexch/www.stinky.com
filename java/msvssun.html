@@ -1,0 +1,275 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title></title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<p><font size="1"><em>Last Update: <!--webbot bot="Timestamp"
+startspan s-type="EDITED" s-format="%A, %d %B %Y %I:%M %p %Z" -->Saturday, 18 October 1997 09:11 AM Eastern Daylight Time<!--webbot
+bot="Timestamp" i-checksum="26347" endspan --></em></font></p>
+
+<h1>Microsoft vs. Sun: The Diffs</h1>
+
+<ul>
+    <li><a href="http://java.sun.com/announcement/index.html">The
+        Sun lawsuit press release</a></li>
+    <li><a
+        href="http://www.scripting.com/davenet/stories/MSRespSunSuit.html">The
+        Microsoft response</a></li>
+    <li><a href="#articles">My articles posted to
+        comp.lang.java.advocacy</a></li>
+    <li><a href="msdiff.txt">The differences between Sun's and
+        Microsoft's java.* classes</a></li>
+    <li><a href="nsdiff.txt">The differences between Sun's and
+        Netscape's java.* classes</a> (JDK 1.1 Patch <a
+        href="http://developer.netscape.com/software/jdk/download.html">PR2</a>)</li>
+    <li><a href="http://www.microsoft.com/corpinfo/contract.htm">Full
+        text of the agreement between Sun and Microsoft</a> (and
+        on <a
+        href="http://java.sun.com/aboutJava/info/document.html">Sun's
+        site</a>)</li>
+    <li><a
+        href="ftp://ftp.microsoft.com/developr/msdn/unsup-ed/rmi.zip">Microsoft's
+        version of RMI is actually online</a> - and it's <a
+        href="#rmi">really Sun's version</a>! - and it <a
+        href="#rmi-fails">doesn't work under IE4</a>!</li>
+</ul>
+
+<h3>Press:</h3>
+
+<ul>
+    <li>John Zukowski's excellent, updated <a
+        href="http://www.javaworld.com/javaworld/jw-11-1997/jw-11-pitfalls.html">JavaWorld
+        article</a></li>
+    <li><a href="http://sunsite.unc.edu/javafaq/">Cafe au Lait</a></li>
+    <li>Developer.com: <a
+        href="http://www.developer.com/news/1015_suitdocs.html">Microsoft,
+        Sun publish legal documents on the Web</a> </li>
+    <li>news.com: <a
+        href="http://www.news.com/News/Item/0,4,15263,00.html">Sun
+        seeks $35 million in Java suit</a> </li>
+    <li>PC Week Online: <a
+        href="http://www8.zdnet.com/pcweek/news/1013/15alaw.html">Sun,
+        Microsoft to make Java contract public</a></li>
+</ul>
+
+<hr>
+
+<pre>
+From: &quot;Alex Chaffee&quot; &lt;<a
+href="mailto:alex@stinky.com">alex@stinky.com</a>&gt;
+Subject: MS vs Sun: Actual API Diffs Now Available
+Date: Thu, 9 Oct 1997 13:05:00 -0400
+
+&gt;From the press release:
+
+    IE 4.0 adds public API into several &quot;java.&quot; packages. Several methods
+and fields were added to the awt, lang, and net packages. In addition, a
+small number of &quot;java.&quot; public methods were removed.
+
+I decided not to take either Sun's or Microsoft's word for it and wrote a
+script that compares the class files directly. I used javap from JDK1.1.3,
+and looked at all the public classes defined in java.* from JDK1.1.3's
+classes.zip file. I'm using MS's Java from the newly released IE4.0,
+c:\windows\java\packages\Dbzxv3bl.zip
+
+The results? You can see for yourself at
+<a href="msdiff.txt">http://www.stinky.com/java/msdiff.txt</a>
+
+The script compares only public classes. It ignores redeclarations of
+methods as &quot;native public&quot; (since it's perfectly valid for MS to use native
+code to implement their version of the APIs). It also wouldn't notice if MS
+added any public classes to their java.* hierarchy (I can check that too if
+you like, but that wasn't a specific complaint of the lawsuit.) It also
+didn't notice if a &quot;new&quot; method was actually an override, although I went
+through and cleaned out some of those. I also cleaned out cases where a
+method varied only by the addition or removal of a &quot;synchronized&quot; keyword.
+
+Note also that this deals only with interfaces (declarations) -- if MS
+changed the implementation of any methods, for instance, as Sun alleges,
+changing the actual color returned from one of the color classes, this will
+not pick that out. It also does not address the other major issue of the
+lawsuit: <strong>that MS refuses to develop RMI and JNI in favor of their own
+proprietary solutions.
+</strong>
+The highlights:
+
+* Yes, MS added some public methods and fields.
+
+* As far as I can tell, MS did *not* remove any public methods.</pre>
+
+<pre><strong>*** This is wrong! Microsoft removed </strong></pre>
+
+<pre><strong>java.io.ByteArrayOutputStream:
+&lt;     public java.lang.String toString(java.lang.String);
+</strong>
+* For the most part, the changes seem to be shortcuts for Windows-specific
+functions, like adding a getNativeServices() call to java.lang.Runtime, or
+adding getNativeData() to java.awt.Font. No Java application developer would
+use these methods; they're probably for use by other MS-implementation
+classes, and they had to be declared public because those classes are in
+different packages.
+
+* There are a few actual functional additions that might confuse a
+developer, including:
+
+java.awt.Window:
+&gt;     public java.awt.Point location();
+
+java.util.ResourceBundle:
+&gt;     public final java.awt.Menu getMenu(java.lang.String);
+&gt;     public final java.awt.MenuBar getMenuBar(java.lang.String);
+
+* The &quot;50 fields&quot; were all added to a *single* class, java.util.Locale. MS
+added 50 different locations as constants that were left out of the JDK
+class, e.g.
+
+&gt;     public static final java.util.Locale CROATIAN;
+&gt;     public static final java.util.Locale CZECH;
+&gt;     public static final java.util.Locale DANISH;
+
+* I found *no* differences in java.net (as claimed by Sun).
+
+Disclaimer: I am a staunch Java supporter and a true believer in 100% Pure
+Java. Personally, I think Sun was right to file a lawsuit, even if only as a
+P.R. maneuver. It may help the public understand just how important purity
+is to the Java platform. Without true write-once, run-anywhere, Java becomes
+just another OS-dependent application development language. Whether these
+particular changes were actually a threat to WORA...
+
+ - Alex
+
+---
+Alexander Day Chaffee - <a href="mailto:alex@stinky.com">alex@stinky.com</a>
+Java Consulting and Training
+Co-creator of Gamelan, <a href="http://www.gamelan.com/">http://www.gamelan.com/</a>
+</pre>
+
+<hr>
+
+<p><br>
+From: &quot;Alex Chaffee&quot; &lt;<a
+href="mailto:alex@stinky.com">alex@stinky.com</a>&gt;<br>
+Subject: MS Diff Update (including Netscape diffs)<br>
+Date: Sat, 11 Oct 1997 07:07:31 -0400<br>
+<br>
+A few new developments:<br>
+<br>
+1) JavaWorld did an article on the details of the diffs. It's
+worth reading.<br>
+<br>
+<a href="http://www.javaworld.com/jw-10-1997/jw-10-sdk.html">http://www.javaworld.com/jw-10-1997/jw-10-sdk.html</a><br>
+<br>
+2) I rewrote my script to ignore overriden methods. If the
+declaration<br>
+changed, it's caught when we analyze the superclass, so all this
+change does<br>
+is reduce clutter in the output. The new diffs are available at<br>
+<br>
+<a href="http://www.stinky.com/java/msdiff.txt">http://www.stinky.com/java/msdiff.txt</a><br>
+<br>
+3) In rewriting my script, I caught a big mistake: due to a
+regular<br>
+expression run amok, I missed analyzing java.lang.Class! As luck
+would have<br>
+it, that was a class with many changes... here they are:<br>
+<br>
+java.lang.Class:<br>
+&gt; public java.lang.Class getInterface(java.lang.String);<br>
+&gt; public java.lang.reflect.Method<br>
+getDeclaredMethodFromSignature(java.lang.String,
+java.lang.String);<br>
+&gt; public java.lang.reflect.Method<br>
+getMethodFromSignature(java.lang.String, java.lang.String);<br>
+&gt; public java.lang.reflect.Method getMethods(int)[];<br>
+</p>
+
+<hr>
+
+<p>Sunday 12 October 9:08 AM EST</p>
+
+<p>I just ran my script on Netscape's PR2 patch. Results are
+still at<br>
+<br>
+&nbsp;&nbsp;&nbsp; <a
+href="http://www.stinky.com/java/nsdiff.txt">http://www.stinky.com/java/nsdiff.txt</a><br>
+<br>
+Highlights:<br>
+<br>
+* Netscape does support JDBC and JavaBeans, contrary to my
+previous report.<br>
+<br>
+* Netscape is still missing java.security.*<br>
+<br>
+* There are now about 27 extra public methods in 7 different
+classes<br>
+<br>
+* none of them look particularly heinous, and are undocumented
+and therefore<br>
+easy to avoid (just like Microsoft's changes)<br>
+<br>
+* John Zukowski (author of the JavaWorld article referenced
+above) recommends looking at protected methods as well as public
+methods, since they are also visible outside the package. I'll be
+updating my scripts soon and I'll keep you posted.</p>
+
+<p>&nbsp;</p>
+
+<hr>
+
+<p><a name="rmi"></a>Thursday 16 October 1997</p>
+
+<p><br>
+So I ran my diff test on Microsoft's implementation of RMI that
+they posted to their FTP site. (And then didn't tell anyone where
+it was; I had to find out on Usenet.) <a
+href="ftp://ftp.microsoft.com/developr/msdn/unsup-ed/rmi.zip">ftp://ftp.microsoft.com/developr/msdn/unsup-ed/rmi.zip</a>
+&nbsp; </p>
+
+<p>Turns out Microsoft's public declarations and API have no
+differences from Sun's inside java.rmi.*. &nbsp; That's because
+they're the same files :-) &nbsp; </p>
+
+<p>The class files themselves are *identical* to Sun's RMI class
+files (from JDK 1.1.3). In fact, they've even got the same
+creation and modification dates. They're the same files. &nbsp; </p>
+
+<p>I hope to test them later today, to find out if they actually
+work inside IE4 / MSJVM. &nbsp; <br>
+</p>
+
+<hr>
+
+<p><a name="rmi-fails"></a>16 October 1997</p>
+
+<p><br>
+This just in: RMI doesn't work under Internet Explorer 4.0.<br>
+<br>
+It fails with a<br>
+<font face="Courier">&quot;com.ms.security.SecurityExceptionEx[java/rmi/registry/LocateRegistry.&lt;clinit&gt;]:
+Unable to access system property:
+java.rmi.registry.packagePrefix&quot;</font><br>
+inside the Naming.lookup() call.<br>
+<br>
+This is even if you go get<br>
+<a href="ftp://ftp.microsoft.com/developr/msdn/unsup-ed/rmi.zip">ftp://ftp.microsoft.com/developr/msdn/unsup-ed/rmi.zip</a>
+and unzip it in your<br>
+applet's codebase directory.<br>
+<br>
+Note that it works fine under Netscape 4.03 with JDK1.1 patch. It
+also works<br>
+fine with JView, the standalone JVM from Microsoft.<br>
+<br>
+It also works fine if you install java.rmi.* inside the classpath
+on your<br>
+local machine, so IE can find the code locally and trust it.<br>
+</p>
+
+<p>&nbsp;</p>
+</body>
+</html>

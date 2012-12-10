@@ -1,0 +1,64 @@
+#!/usr/bin/perl
+
+$time = time;
+
+require "cgi-lib.pl";
+require "ctime.pl";
+
+print &PrintHeader;
+
+if (!&ReadParse(*input)) {
+	$url = &MyURL . "?time=$time";
+	print << END;
+<HTML>
+<META HTTP-EQUIV=REFRESH CONTENT="0; URL=$url">
+<title>Web Timer</title>
+<h1>Web Timer</h1>
+
+Just sit right back and enjoy the show. This page is using NetScape 1.1
+Server Pull to measure the speed of your connection. I'm going to spew about
+100K of garbage and measure how long it takes. You should do <b>nothing</b> 
+except maybe get a cup of coffee. I'll tell you when I'm done.
+
+<hr>
+
+Here comes the trash...
+
+<pre>
+END
+
+	$| = 1;		# flush buffer on every print
+
+	for ($i=0; $i<1024; ++$i)
+	{
+		print ($i % 10) x 99 . "\n";
+	}
+
+	print "</PRE>\n";
+	print "</HTML>\n";
+}
+else
+{
+	if ($input{time}) {
+		$seconds = $input{time} - $time;
+		$rate = 100/$seconds;
+		$url = &MyURL;
+		print << END;
+<HTML>
+<HEAD><TITLE>Timer Finished</TITLE></HEAD>
+<BODY>
+<H1>Timer Finished</H1>
+That took $seconds seconds, for a throughput of approximately $rate K/sec.
+<p>
+<a href=$url>Click here to try it again</a>
+<hr>
+written by Alex Chaffee<br>
+from an idea by David Levine<br>
+
+END
+	}
+	else
+	{
+		print "You're weird.\n";
+	}
+}

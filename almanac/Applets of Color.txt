@@ -1,0 +1,34 @@
+From: Alex Chaffee <alex@earthweb.com>
+Subject: Applets of Color
+Date: Tue, 27 Feb 1996 10:55:49 -0500 (EST)
+
+So last night on short notice I went, at the invitation of the head of
+the Hot Java Users Group, to speak on a panel at an Internet
+conference in the Sheraton. She had told me this was a normal users'
+group meeting, just come on for 10 or 15 minutes and talk about
+Gamelan and Java to a not very technical audience.
+
+It turned out that I was the featured panelist on the "Artists of
+Color on the Web" Panel. I kid you not. There was a dancer/webmaster,
+a bookseller, a music agent, a translator... and a cool Shockwave
+demo... and a guy from Sun Integration saying "we're hiring"... and
+me. I showed off Gamelan and some cool applets (Dave surfed expertly
+off-stage) and fielded questions about Java. After the panel's Q&A
+session -- where all but two of the questions were directed to me --
+the large woman artist of color next to me leaned back and said to no
+one in particular, "So why did I come sit up here?" I felt oddly
+guilty about the pleasure I'd taken in being the center of attention.
+
+At one point I was asked, "How is Gamelan funded?" My reply: "We make
+our living off our consulting and site design and technology. We hope
+to make Gamelan pay for itself by selling ad space, but we basically
+provide it as a service to the community." Then, for the first time in
+my brief career as a public speaker, I heard the warm patter of
+spontaneous applause.
+
+ - Alex
+
+
+-----------------------------------------------------------------------------
+Copyright © 1996 Alexander D. Chaffee (alex@stinky.com). All rights reserved. 
+See more at http://www.stinky.com/almanac/

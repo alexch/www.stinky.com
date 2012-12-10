@@ -1,0 +1,51 @@
+Tetris
+
+
+Coding Conventions (Hungarian)
+
+Objects begin with a capital letter; instances of the objects begin with 
+a lowercase letter. E.g.
+
+	Object * object;
+	
+Same with types.
+
+	typedef enum { move1, move2 } Move;
+	Move move = move1;
+	
+Max means the biggest member of the set plus one, so a loop of the form
+
+	for (i = fruitMin; i < fruitMax; ++i)
+	
+loops through all available fruits, and fruitMax says how many fruits 
+there are.
+	
+To distinguish between objects/variables of the same type, use a 
+capitalized descriptive name -after- the lowercase type name.
+
+	Move movePrevious, moveCurrent, moveNext;
+	Player * playerOne, * playerTwo;
+
+The standard types are problematic (an int should be "Int int = 4;" but 
+that's syntactically incorrect). So non-enums are implicitly given types by 
+their names (int count, countApples, countOranges). Boolean is "f" (for 
+"flag"), as in "fStupid = TRUE". Arrays are sometimes "rg" (for "range") 
+but more often they're their contents plus an "s" ("int nums[kMaxNum];").
+
+
+Porting
+
+All functions are prototyped. If the function is accessed outside of its 
+file (blah.cp), it is prototyped in blah.h. In general, try to put all 
+definitions that are unnecessary to outsiders inside the .cp file. Of 
+course, since C++ is brain damaged, this is impossible -- I'm talking 
+about private and protected members.
+
+Try not to make any big changes. If you must, add a #include "config.h" 
+to the top of each file, in order to make unix-specific macros and stuff. 
+Also if you have to make code-level changes, bracket them all with "#ifdef 
+UNIX" and document them.
+
+First task: write object TextDisplay. It should probably take a FILE * on 
+initialization, then on Update, dump stuff to that file.
+
