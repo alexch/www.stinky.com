@@ -1,0 +1,541 @@
+From STRACGEO@aol.com Sat May 27 11:57:33 2000
+From: STRACGEO@aol.com
+Date: Sat, 27 May 2000 15:02:40 EDT
+Subject: double dactyls
+Status: RO
+Content-Length: 546
+Lines: 11
+
+Omni magazine ran a double dactyl contest and published the results in its 
+November 1980 issue.  According to the article, they received 5,000 entries.  
+One of mine (about Mt. St. Helen's -- Yakima, Washington) was a runner-up.  I 
+have been thinking about double dactyls since Esquire magazine published its 
+piece on them about 35 years ago.  The one about Marcus Antonius was among 
+Esquire's examples.
+
+If you do not have access to the Omni winners, send me fax number information 
+and I will send the pages showing the 30 winning poems.
+
+
+
+From scooke@mail.stlawu.edu Mon Jun 12 18:06:59 2000
+From: "Sasha Cooke" <scooke@mail.stlawu.edu>
+Date: Mon, 12 Jun 2000 21:07:28 -0400
+Subject: double dactyls
+Status: RO
+Content-Length: 640
+Lines: 35
+
+Higgledy Piggledy
+Single white idiot
+Looking for woman with
+Wit and elan,
+
+Hopes that she's frequently
+Animalistically
+Driven, Shuns marriage
+Likes tennis and vin.
+
+Higgledy Piggledy
+Lovely Adventuress,
+I'm thirty-six, but care
+Not what your age 
+
+Is, if you're legal, not
+Sexagenarian
+Fond of debate, music,
+Books, and the stage. 
+
+Higgledy Piggledy
+Pamela Anderson
+Silicone lady who
+Watches the bay
+
+Though you are no longer
+Biodegradable,
+Still, in my landfill, you're
+Free to decay.
+
+These are not really up to the standard of your very entertaining
+web-site, but I thought i'd send them along. (They're a few years old.)
+Sasha Cooke
+
+
+
+From mobanno@mailhost.tcs.tulane.edu Thu Jun 22 23:04:27 2000
+From: "Mark O'Bannon" <mobanno@mailhost.tcs.tulane.edu>
+Date: Thu, 22 Jun 2000 17:06:35 +0000
+Subject: Double-Dactylic URL
+Status: RO
+Content-Length: 1080
+Lines: 33
+
+Hi!
+I enjoyed reading your webpage on double dactyls, and naturally was up
+till the small hours the following night testing some out.
+With just a little bit of rearranging of the files in your web
+directory, you could have a self-referential higgeldy-piggeldy URL:
+
+http://www.stinky.com/alex/higgeldypiggeldy
+
+H-t-t P-colon,
+Forward slash, Forward slash,
+Double-u, Double-u,
+Double-u, Dot
+S-t-i, N-k-y
+Dot com slash, Alex slash
+higgeldypiggeldy
+“What hath God wrought!”
+
+I realize the rhythm is a bit forced in the first line, but that's the
+best I could do.
+You'd have to create a directory called "higgeldypiggeldy" and put your
+higgeldypiggeldy document in that directory, naming it "index.html", or
+whatever works on your server as being the default document to display
+for a particular directory.
+"What hath God wrought", of course, was the first [official] telegraph
+message, and the first self-referential higgeldypiggeldy URL is an
+equally momentous occasion in history.  For some of us.  I guess.
+
+Use it in good health,
+Mark O'Bannon
+mobanno@mailhost.tcs.tulane.edu
+
+
+
+
+From mobanno@mailhost.tcs.tulane.edu Fri Jun 23 14:30:21 2000
+From: "Mark O'Bannon" <mobanno@mailhost.tcs.tulane.edu>
+Date: Fri, 23 Jun 2000 08:32:36 +0000
+Subject: Here come Higgeldy Piggeldies ....
+Status: RO
+Content-Length: 2833
+Lines: 109
+
+Quixity Quaxity
+Tough guy Neil Cassady
+Served as the muse for the
+Beat poet pack.
+Hypervirility
+Roused the typewriters
+Of Burroughs and Ginsberg and
+Jack Kerouac.
+
+Albion! Albion!
+William of Normany
+Conquered the English in
+1066,
+Founded a dynasty
+Proto-Plantagenet,
+Whupped all the Saxons, im-
+pressed all the chicks.
+
+Turaloo, Luralay,
+Patrick the Blessed Saint
+Now and then sipped from a
+Bottle or two
+Whiskey of any brand
+Celto-Hibernian:
+Jameson, Bushmill’s or
+Tullamore Dew.
+
+Bolshevik, Shmolshevik,
+Alice, neé Rosenbaum
+Fled from St. Petersburg,
+Came to our land,
+Uncompromisingly
+Anti-collectively
+Pro-individually
+Wrote as “Ayn Rand”
+
+Rock & roll, roll & rock
+Johann Sebastian Bach
+Wrote the D-minor To-
+catta & Fugue,
+Organ or harpsichord
+Needed for rendering the
+Contrapunctality,
+Not just a jug
+
+[I know it's an execrable rhyme, but can you think of a rhyme for "fugue"?
+I seriously considered writing the second stanza in German, if I could have
+figured out a way to use the word "Zug".]
+
+--
+Mark Brian O'Bannon
+Systems Administrator
+Tulane Cancer Center, New Orleans
+mobanno@mailhost.tcs.tulane.edu
+http://www.tmc.tulane.edu/cancer
+(504) 585-6060
+
+
+
+
+From mobanno@mailhost.tcs.tulane.edu Mon Jun 26 09:52:50 2000
+From: TCCWeb <mobanno@mailhost.tcs.tulane.edu>
+Date: Mon, 26 Jun 2000 12:06:10 +0000
+Subject: 2 more to inflict upon you
+Status: RO
+Content-Length: 540
+Lines: 34
+
+Criminy Carbuncle
+Simon & Garfunkle
+Sang so sincerely for
+Me & for you
+Parsley, sage, rosemary
+Metabotanically
+Symbolized sentiments
+Thymelessly true.
+
+Iliad Schmiliad
+Homer the Blind Poet
+Tells us Achilles and
+Agamemnon
+Camped far apart on the
+Beach, and yet Eos still
+Rhododactylically
+Woke both at dawn.
+
+(Extra credit for using "rhododactylically" in a
+double-dactyl"?)
+
+
+
+
+--
+Mark Brian O'Bannon
+Systems Administrator
+Tulane Cancer Center, New Orleans
+mobanno@mailhost.tcs.tulane.edu
+http://www.tmc.tulane.edu/cancer
+(504) 585-6060
+
+
+
+
+From jecclest@hyperdream.com Thu Dec 14 15:50:31 2000
+From: "jim eccleston" <jecclest@hyperdream.com>
+Date: Thu, 14 Dec 2000 07:51:14 -0800
+Subject: link - Double Dactyls
+Status: RO
+Content-Length: 131
+Lines: 9
+
+Have added your site to my page of writers links
+
+http://redrival.com/bloxword/jimsbmks.htm
+
+I trust this is ok with you.
+
+jim e
+
+
+
+From Kurt.Owens@macmillanUSA.com Wed Jan 03 20:49:39 2001
+From: Kurt.Owens@macmillanUSA.com
+Date: 03 Jan 2001 15:52:57 -0500
+Subject: A couple of double dactyls to enjoy:
+Status: RO
+Content-Length: 363
+Lines: 33
+
+composed by me. . .  really.
+
+
+
+
+
+Higgledy piggledy
+Indianapolis
+Hosting the Pan-Am Games
+Hoped for no rain.
+
+Instead found money goes
+Unnecessarily
+Precipitarily
+Right down the drain
+
+
+
+
+
+Higgledyy Piggledy
+Tess of the D'Urbervilles
+Had a small problem
+With titles and men
+
+Heard, picking turnips with
+Frigidairality
+"What? Must I go to con-
+Fession Again?"
+
+
+
+
+
+From blinn@amug.org Thu Jan 18 10:48:55 2001
+From: Peter Blinn <blinn@amug.org>
+Date: Thu, 18 Jan 2001 03:54:40 -0700
+Subject: DA-da-da DA-da-da
+Status: RO
+Content-Length: 1621
+Lines: 74
+
+Alex,
+
+What a wonderful collection of double dactyls.  I'll be looking back 
+at them from time to time.
+
+I notice your last updates appear to be a good sixteen months or so 
+old, so I hesitate to push that enter-your-email-address button. 
+I'll be encouraged if this send doesn't bounce, though.
+
+Anyway, if you're still up for a good dactyl chuckle or two, here's a 
+cut-and-paste of a few of my own.
+
+[Note: Heliogabalus was a particularly dissolute Roman emperor 
+(203-222 C.E.) who led a Syrian cult based on a meteorite, ate 
+ostrich brains and sponsored orgies.]
+
+---------------
+
+Hippo-by-potamus
+Heliogabalus
+Worshipped a bolide and
+Married four wives.
+
+Bawdy proclivities,
+Hyperactivities,
+Prompted his courtiers to
+Vent him with knives.
+
+----------------------------------------------
+
+Pipoulos-popoulos
+Theotokopoulos
+Known as El Greco, a
+Painterly dude.
+
+Armchair historians,
+Demi-folklorians,
+Took as a given his
+Vision was skewed.
+
+----------------------------------------------
+
+Splishety-splashevich
+Slobo Milosevic
+Brash as a tsarevich,
+Statesman manque.
+
+Moral duplicities,
+Ethnocentricities;
+Now those galoshes are
+Stomping HIS way.
+
+----------------------------------------------
+
+Nickety-noodleski
+John Paul the Secondski
+Polish pontifical
+Primate sublime.
+
+Faithfuls to catechize,
+Heroes to canonize;
+Ecclesiastical
+Chores take his time.
+
+----------------------------------------------
+-- 
+P.B.
+-------------------------------------------------------------
+   Peter Blinn
+   blinn@amug.org
+   Web Page Samples: www.CuriousNotions.com
+--------------------------------------------------------------
+
+
+
+From effzee@t-online.de Fri Feb 23 15:20:49 2001
+From: effzee@t-online.de (WG)
+Date: Fri, 23 Feb 2001 16:26:20 +0100
+Subject: A double-dactyl.....
+Status: RO
+Content-Length: 778
+Lines: 35
+
+Hi Alex,
+
+A friend asked me to write a double-dactyl and as I wasn't 100% up to
+snuff on the form, I did a search and hence found myself at your
+website. You've got a super collection of poetry and your explanaition
+of the for helped me greatly. I thought you may enjoy my effort. The
+subject is a bit esoteric, geared toward hardline Frank Zappa fans, but
+I think the piece stands on its own.....
+
+Here ya go:
+
+Flubbadee Blubbadee
+Greggory Peccary
+a fictional man that
+Zappa supplied,
+
+Looked like a piggie with
+Respectability
+Defined by the wearing
+of big wide white ties
+
+Thanks for the help! :o)
+
+Willie G.
+
+--
+-------Without a heart the animal
+-----------is very, very kind
+----so kind it wouldn't like a soul
+--------and couldn't use a mind
+
+-------------e.e. cummings
+
+
+
+
+From Davida@jdc.org.il Tue Mar 20 08:56:48 2001
+From: Chazan Davida <Davida@jdc.org.il>
+Date: Tue, 20 Mar 2001 10:56:51 +0200
+Subject: Double Dactyls
+Status: RO
+Content-Length: 545
+Lines: 37
+
+I heard from someone that you were, um, interested in double dactyls.
+I've written two:
+
+
+Double Oh Dactyl
+
+Gadgetiy-Fadgity
+Double Oh Seven Jim
+Lost a good friend in his
+Buddy "Q" who,
+
+Crafted the snazziest
+Gizmo-technology.
+Filling his shoes will take
+R, S, T, U!
+
+Davida Chazan - 1/2001
+
+
+
+Spears Double Dactyl
+
+Popity-Schlockity
+music teen Brittany's
+writing her memoirs in
+spite of her age.
+
+Thousands will snap them up
+enthusiastically,
+even if there's only
+one word per page!
+
+Davida Chazan - 1/2001
+
+
+
+
+From cowan@mercury.ccil.org Thu Apr 12 09:02:55 2001
+From: John Cowan <cowan@mercury.ccil.org>
+Date: Thu, 12 Apr 2001 00:18:44 -0400 (EDT)
+Subject: Double Dactyls
+Status: RO
+Content-Length: 593
+Lines: 22
+
+Great collection!  However, you omit The Greatest Of Them All (to my mind;
+unfortunately I don't know the author):
+
+	Said Agatha Christie to
+	E. Phillips Oppenheim,
+	"Who is this Hemingway?
+	Who is this Proust?
+
+	Who is this Vladimir
+	Whatchamacallum, this
+	Neo-post-realist
+	Rabble?" she groused.
+
+There's something about that last line that *sings*.  Also, incorporating the
+nonsense line *into* the content is an excellent feature.
+
+-- 
+John Cowan                                   cowan@ccil.org
+One art/there is/no less/no more/All things/to do/with sparks/galore
+	--Douglas Hofstadter
+
+
+
+From dinkin@fas.harvard.edu Sun Jun 24 01:22:32 2001
+From: Aaron J Dinkin <dinkin@fas.harvard.edu>
+Date: Sat, 23 Jun 2001 21:31:21 -0400 (EDT)
+Subject: Higgledy piggledy?
+Status: O
+Content-Length: 1182
+Lines: 52
+
+Aaron J. Dinkin here - noticed your webpage and quite enjoyed it. And,
+since I'm sort of a deuterodactylist too, I saw no reason not to submit:
+
+ESTABLISHING DOMINANCE
+
+Twiddledum, twiddledee -
+Ludwig van Beethoven
+Hopes his new symphony
+Isn't a bore;
+Therefore he's started it
+Heterodoxically,
+Thrilling the crowd with five-
+Seven of four.
+
+[Author's note: This is a music theory joke, obviously. In traditional
+Classical music, a piece always begins with a statement of the tonic chord
+of the piece. Beethoven's first symphony breaks this tradition: it's in C
+major, but it begins with the dominant-seventh (i.e., a "five-seven")
+chord of the key of F (which is "four" in relation to C) instead.]
+
+
+DISAPPOINTMENT
+
+Basia, basia,
+Ellen DeGeneres,
+Old Latin poetry
+Really is great.
+Reading Catullus's
+Hendecasyllables,
+Don't get excited, 'cause
+Lesbia's straight.
+
+[Note: Lesbia was the girlfriend of the Roman poet Catullus, to whom many
+of his love poems were dedicated.]
+
+
+A CHANGE OF FORMAT
+
+Higgledy-piggledy,
+Benjamin Harrison
+Listened to poems and
+Said, "Okey-dokey,
+Leave me alone with your
+Dactylic meter; it's
+Unsatisfactory.
+I like trochee.
+
+
+-Aaron J. Dinkin
+Dr. Whom
+
+
+

@@ -1,0 +1,14 @@
+C	cmaj
+A7	a7
+F	fmaj
+G7	g7
+E7	e7
+F	fmaj
+Fm	fmin
+D7	d7
+C7	c7
+Dm7	dm7
+Em	emin
+Adim	dim1
+D	dmaj
+B7	b7

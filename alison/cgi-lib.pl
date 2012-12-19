@@ -2,7 +2,7 @@
 
 # Perl Routines to Manipulate CGI input
 # S.E.Brenner@bioc.cam.ac.uk
-# $Header: /cys/people/brenner/http/cgi-bin/RCS/cgi-lib.pl,v 1.8 1995/04/07 21:35:29 brenner Exp $
+# $Header: /home/cvs/sites/www.stinky.com/alison/cgi-lib.pl,v 1.1 2001/07/15 03:39:48 alex Exp $
 #
 # Copyright 1994 Steven E. Brenner
 # Unpublished work.

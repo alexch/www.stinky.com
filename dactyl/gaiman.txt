@@ -1,0 +1,29 @@
+From: Simon Tatham <anakin@pobox.com>
+To: alex@stinky.com
+Subject: double dactyl
+Date: Wed, 05 Feb 2003 09:52:08 +0000
+
+Your page at http://www.stinky.com/dactyl/dactyl.html says `If you
+find or, God forbid, compose any new double-dactyls, please let me
+know'...
+
+I'd never heard of the double dactyl form before I saw your page,
+but as soon as I saw it I knew I'd seen one before. It occurs in
+Neil Gaiman's book `Stardust', in which a collection of small imps
+dance around the hero and sing
+
+  Hankety-pankety
+  Boy in a blanket, he's
+  Off on a goose-chase to
+  Look for a star
+
+  Incontrovertibly
+  Journeys through Faërie
+  Strip off the blanket to
+  See who you are.
+
+(Of course, the diaeresis in `Faërie' separates the diphthong and
+causes the word to scan as a full dactyl.)
+
+Cheers,
+Simon
